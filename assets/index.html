@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammad Shafiul Azam | IT Auditor, Software & AI Engineer</title>
+  <meta name="description" content="Official Portfolio of Mohammad Shafiul Azam — IT Officer & IT Auditor at Shahjalal Islami Bank PLC (IC&CD) with 15+ years of experience in IT Audit, CCTV & Security Systems, Web Development (HTML, CSS, Tailwind CSS, Bootstrap, PHP, CodeIgniter, JavaScript, Python), and Databases (MySQL, PostgreSQL, Oracle)." />
+  <meta name="keywords" content="Mohammad Shafiul Azam, IT Auditor, Shahjalal Islami Bank PLC, Software Engineer, AI Engineer, PHP, CodeIgniter, Python, JavaScript, Tailwind CSS, Bootstrap, MySQL, PostgreSQL, Oracle, CCTV Systems, Bangladesh" />
+  <meta name="author" content="Mohammad Shafiul Azam" />
+  <meta property="og:title" content="Mohammad Shafiul Azam | IT Auditor & Software Engineer" />
+  <meta property="og:description" content="15+ Years in Banking IT Audit, Security/CCTV Systems, Full-Stack Web Development & Enterprise Databases." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://boostingpoint.com/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              navy: '#0F172A',
+              slate: '#1E293B',
+              blue: '#1E3A8A',
+              sky: '#0284C7',
+              teal: '#0D9488',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, .font-display { font-family: 'Plus Jakarta Sans', sans-serif; }
+    @media print {
+      .no-print { display: none !important; }
+      body { background: #ffffff !important; color: #000000 !important; }
+      section { break-inside: avoid; padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-sky-600 selection:text-white">
+
+  <!-- Sticky Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="flex items-center gap-2.5 group">
+          <span class="w-9 h-9 rounded-lg bg-slate-900 text-white font-display font-bold flex items-center justify-center text-sm tracking-wider group-hover:bg-sky-600 transition-colors">MSA</span>
+          <div class="leading-tight">
+            <span class="block font-display font-bold text-slate-900 text-sm sm:text-base">Mohammad Shafiul Azam</span>
+            <span class="block text-[11px] text-slate-500 font-medium">IT Auditor &bull; Software &amp; AI Engineer</span>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+          <a href="#about" class="hover:text-sky-600 transition-colors">About &amp; CV</a>
+          <a href="#skills" class="hover:text-sky-600 transition-colors">Technical Skills</a>
+          <a href="#experience" class="hover:text-sky-600 transition-colors">Experience</a>
+          <a href="#certifications" class="hover:text-sky-600 transition-colors">Certifications</a>
+          <a href="#education" class="hover:text-sky-600 transition-colors">Education</a>
+          <a href="#contact" class="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-sky-600 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" aria-label="Toggle Menu" class="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2 text-sm font-medium">
+      <a href="#about" class="block py-2 text-slate-700 hover:text-sky-600">About &amp; CV</a>
+      <a href="#skills" class="block py-2 text-slate-700 hover:text-sky-600">Technical Skills</a>
+      <a href="#experience" class="block py-2 text-slate-700 hover:text-sky-600">Experience</a>
+      <a href="#certifications" class="block py-2 text-slate-700 hover:text-sky-600">Certifications</a>
+      <a href="#education" class="block py-2 text-slate-700 hover:text-sky-600">Education</a>
+      <a href="#contact" class="block py-2 text-sky-600 font-semibold">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950 text-white py-16 sm:py-24">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:20px_20px]"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/15 border border-sky-400/30 text-sky-300 text-xs sm:text-sm font-medium">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            IT Auditor &bull; Software &amp; AI Engineer &bull; Banking Security Specialist
+          </div>
+
+          <h1 class="font-display text-3xl sm:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight leading-tight">
+            Mohammad Shafiul Azam
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
+            Seasoned <strong class="text-white font-semibold">IT Officer &amp; IT Auditor</strong> at <strong class="text-sky-300 font-semibold">Shahjalal Islami Bank PLC (IC&amp;CD)</strong> since 2012, bringing <strong class="text-white font-semibold">15+ years of combined IT expertise</strong> across Core Banking System audits, CCTV &amp; infrastructure security, full-stack web engineering (<span class="text-sky-300">PHP, CodeIgniter, Python, JavaScript, Tailwind CSS, Bootstrap</span>), and enterprise SQL databases (<span class="text-teal-300">MySQL, PostgreSQL, Oracle</span>).
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-3 pt-2 no-print">
+            <button onclick="window.print()" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-sm shadow-lg shadow-sky-900/40 transition-all">
+              <i data-lucide="printer" class="w-4 h-4"></i>
+              Print / Save CV as PDF
+            </button>
+            <a href="#certifications" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-semibold text-sm transition-all">
+              <i data-lucide="award" class="w-4 h-4 text-teal-300"></i>
+              View Certifications
+            </a>
+            <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 hover:border-slate-400 text-slate-200 hover:text-white font-semibold text-sm transition-all">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Quick Metrics -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-800 max-w-xl">
+            <div>
+              <span class="block font-display text-2xl sm:text-3xl font-extrabold text-white">15+</span>
+              <span class="text-xs sm:text-sm text-slate-400">Years in IT &amp; Banking</span>
+            </div>
+            <div>
+              <span class="block font-display text-2xl sm:text-3xl font-extrabold text-sky-400">2012–Now</span>
+              <span class="text-xs sm:text-sm text-slate-400">Shahjalal Islami Bank</span>
+            </div>
+            <div>
+              <span class="block font-display text-2xl sm:text-3xl font-extrabold text-teal-400">5+ Yrs</span>
+              <span class="text-xs sm:text-sm text-slate-400">Software Firm Dev</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Card -->
+        <div class="lg:col-span-5 flex justify-center lg:justify-end">
+          <div class="relative w-full max-w-sm bg-slate-800/70 backdrop-blur-md border border-slate-700/80 rounded-2xl p-5 shadow-2xl">
+            <div class="relative aspect-[4/5] w-full overflow-hidden rounded-xl bg-slate-100 border border-slate-600/40">
+              <img
+                src="assets/images/profile-hero.jpg"
+                alt="Mohammad Shafiul Azam - Formal Portrait"
+                onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Mohammad+Shafiul+Azam&size=512&background=0F172A&color=FFFFFF&bold=true';"
+                class="w-full h-full object-cover object-top"
+              />
+              <div class="absolute bottom-3 left-3 right-3 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg px-3.5 py-2.5">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-xs font-semibold text-white">IT Auditor</p>
+                    <p class="text-[11px] text-sky-300">IC&amp;CD, Shahjalal Islami Bank PLC</p>
+                  </div>
+                  <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-teal-500/20 text-teal-300">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex items-center justify-between text-xs text-slate-300 px-1">
+              <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-400"></i> Gulshan Avenue, Dhaka</span>
+              <span class="flex items-center gap-1.5"><i data-lucide="globe" class="w-3.5 h-3.5 text-teal-400"></i> boostingpoint.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Integrated Executive CV Summary -->
+  <section id="about" class="py-16 sm:py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Executive Profile &amp; CV Overview</span>
+        <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold text-slate-900">Bridging Banking IT Governance with Full-Stack &amp; AI Engineering</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <!-- Left Bio & Strengths -->
+        <div class="lg:col-span-7 space-y-5 text-slate-600 leading-relaxed">
+          <p>
+            I am <strong class="text-slate-900">Mohammad Shafiul Azam</strong> , a Computer Science &amp; Engineering graduate with over <strong class="text-slate-900">15 years of progressive experience</strong> across software development, database engineering, banking IT operations, information systems auditing, and enterprise CCTV surveillance infrastructure.
+          </p>
+          <p>
+            After completing my B.Sc. in CSE, I worked for <strong class="text-slate-900">5+ years in a software firm</strong> as a Content &amp; Web Developer, building dynamic applications using <strong class="text-slate-900">HTML, CSS, Bootstrap, JavaScript, PHP, CodeIgniter, MySQL, and WordPress CMS</strong>.
+          </p>
+          <p>
+            Since <strong class="text-slate-900">November 2012</strong>, I have been serving at <strong class="text-slate-900">Shahjalal Islami Bank PLC</strong> within the <strong class="text-slate-900">Internal Control &amp; Compliance Division (IC&amp;CD)</strong> as an IT Officer &amp; IT Auditor. My core responsibilities include independent branch and head-office IS audits, vulnerability assessment (VAPT), Core Banking System (<strong class="text-slate-900">BankUltimus &amp; Flora Bank UBS</strong>) compliance reviews, network &amp; system communication audits, and bank-wide <strong class="text-slate-900">IT CCTV &amp; security systems</strong> management.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3">
+            <div class="flex items-start gap-2.5 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-teal-600 shrink-0 mt-0.5"></i>
+              <span class="text-sm text-slate-700 font-medium">Independent Branch &amp; Core Banking IS Audit (BankUltimus, Flora UBS)</span>
+            </div>
+            <div class="flex items-start gap-2.5 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-teal-600 shrink-0 mt-0.5"></i>
+              <span class="text-sm text-slate-700 font-medium">IT CCTV Surveillance &amp; Infrastructure Security Operations</span>
+            </div>
+            <div class="flex items-start gap-2.5 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-teal-600 shrink-0 mt-0.5"></i>
+              <span class="text-sm text-slate-700 font-medium">Full-Stack Web &amp; Python Automation (PHP, CodeIgniter, Python)</span>
+            </div>
+            <div class="flex items-start gap-2.5 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-teal-600 shrink-0 mt-0.5"></i>
+              <span class="text-sm text-slate-700 font-medium">Multi-RDBMS Querying &amp; Reporting (MySQL, PostgreSQL, Oracle)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Personal & Contact Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-7 shadow-xl space-y-5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+              <h3 class="font-display text-lg font-bold">Quick CV Dossier</h3>
+              <span class="px-2.5 py-1 rounded-md bg-sky-500/20 text-sky-300 text-xs font-semibold">Verified Profile</span>
+            </div>
+
+            <dl class="space-y-3.5 text-sm">
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Full Name</dt>
+                <dd class="font-medium text-right">Mohammad Shafiul Azam</dd>
+              </div>
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Current Role</dt>
+                <dd class="font-medium text-right text-sky-300">Internal IT Auditor </dd>
+              </div>
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Organization</dt>
+                <dd class="font-medium text-right">Shahjalal Islami Bank PLC</dd>
+              </div>
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Email</dt>
+                <dd class="font-medium text-right"><a href="mailto:shafiul2494@gmail.com" class="hover:text-sky-400">shafiul2494@gmail.com</a></dd>
+              </div>
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Phone / WhatsApp</dt>
+                <dd class="font-medium text-right">+880 1621-377466 / +880 1718-284828</dd>
+              </div>
+              <div class="flex justify-between gap-4">
+                <dt class="text-slate-400">Languages</dt>
+                <dd class="font-medium text-right">Bengali, English, Japaness (N5), Spanish (Level 2)</dd>
+              </div>
+              <div class="pt-2 border-t border-slate-800">
+                <dt class="text-slate-400 mb-1">Corporate Office</dt>
+                <dd class="text-xs text-slate-300 leading-relaxed">IC&amp;CD, Shahjalal Islami Bank Tower, Plot-4, Block-CWN(C), Gulshan Avenue, Dhaka-1212</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills & Knowledge Matrix -->
+  <section id="skills" class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Computer &amp; Programming Knowledge</span>
+        <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold text-slate-900">Technical Stack, Frameworks &amp; Enterprise Databases</h2>
+        <p class="mt-2 text-slate-600 text-sm sm:text-base">Structured across programming languages, frontend/backend frameworks, relational databases, and banking IT audit governance.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1: Programming Languages -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-4">
+            <i data-lucide="code-2" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">Programming &amp; Web Core</h3>
+          <p class="text-xs text-slate-500 mb-4">Languages &amp; core web technologies</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-slate-900 text-white text-xs font-semibold">HTML5</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-900 text-white text-xs font-semibold">CSS3</span>
+            <span class="px-3 py-1 rounded-lg bg-sky-50 text-sky-700 border border-sky-200 text-xs font-semibold">JavaScript</span>
+            <span class="px-3 py-1 rounded-lg bg-sky-50 text-sky-700 border border-sky-200 text-xs font-semibold">PHP</span>
+            <span class="px-3 py-1 rounded-lg bg-teal-50 text-teal-700 border border-teal-200 text-xs font-semibold">Python</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">SQL</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Frontend & Backend Frameworks -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4">
+            <i data-lucide="layers" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">CSS, HTML &amp; PHP Frameworks</h3>
+          <p class="text-xs text-slate-500 mb-4">UI architecture, MVC frameworks &amp; CMS</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-indigo-600 text-white text-xs font-semibold">Tailwind CSS</span>
+            <span class="px-3 py-1 rounded-lg bg-indigo-50 text-indigo-700 border border-indigo-200 text-xs font-semibold">Bootstrap</span>
+            <span class="px-3 py-1 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 text-xs font-semibold">CodeIgniter (PHP)</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">jQuery</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">WordPress CMS</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Backend Databases (SQL) -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center mb-4">
+            <i data-lucide="database" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">Backend Databases (SQL)</h3>
+          <p class="text-xs text-slate-500 mb-4">Relational database design, querying &amp; CBS data extraction</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-teal-600 text-white text-xs font-semibold">MySQL</span>
+            <span class="px-3 py-1 rounded-lg bg-teal-50 text-teal-800 border border-teal-200 text-xs font-semibold">PostgreSQL</span>
+            <span class="px-3 py-1 rounded-lg bg-rose-50 text-rose-800 border border-rose-200 text-xs font-semibold">Oracle (11G / CBS)</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">SQL Server</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Banking IT Audit & Governance -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
+            <i data-lucide="shield-alert" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">IT Audit &amp; Compliance</h3>
+          <p class="text-xs text-slate-500 mb-4">Banking risk assessment &amp; regulatory frameworks</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-semibold">ISO/IEC 27001:2013</span>
+            <span class="px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-semibold">COBIT &amp; ITIL</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">PCI DSS</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">BB ICT Security Guideline</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">VAPT &amp; Bug Identification</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Core Banking & Security Infrastructure -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+            <i data-lucide="cctv" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">CCTV, Network &amp; Core Banking</h3>
+          <p class="text-xs text-slate-500 mb-4">Enterprise surveillance &amp; banking operations</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-blue-600 text-white text-xs font-semibold">IT CCTV &amp; Surveillance</span>
+            <span class="px-3 py-1 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 text-xs font-semibold">BankUltimus CBS</span>
+            <span class="px-3 py-1 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 text-xs font-semibold">Flora Bank UBS</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">Active Directory (AD)</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">CISCO Packet Tracer</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Cloud, Tools & Design -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-11 h-11 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4">
+            <i data-lucide="cpu" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-slate-900 mb-1">Cloud, AI Tools &amp; Design</h3>
+          <p class="text-xs text-slate-500 mb-4">Modern development, cloud &amp; creative suite</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-purple-50 text-purple-800 border border-purple-200 text-xs font-semibold">Microsoft Azure (AZ-900)</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">Git &amp; GitHub</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">XAMPP / VS Code</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">Adobe Photoshop &amp; Illustrator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Timeline -->
+  <section id="experience" class="py-16 sm:py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Career Journey</span>
+        <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold text-slate-900">Professional Experience</h2>
+      </div>
+
+      <div class="relative border-l-2 border-slate-200 ml-3 sm:ml-6 space-y-10">
+        <!-- Role 1 -->
+        <div class="relative pl-8 sm:pl-10">
+          <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-sky-600 ring-4 ring-sky-100"></span>
+          <div class="bg-slate-50 rounded-2xl p-6 sm:p-7 border border-slate-200/90">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="font-display text-xl font-bold text-slate-900">IT Officer / IT Auditor (Assistant Executive Officer)</h3>
+                <p class="text-sky-700 font-semibold text-sm">Shahjalal Islami Bank PLC &mdash; Internal Control &amp; Compliance Division (IC&amp;CD)</p>
+              </div>
+              <span class="px-3.5 py-1 rounded-full bg-sky-600 text-white text-xs font-semibold">November 2012 &ndash; Present</span>
+            </div>
+            <p class="text-xs text-slate-500 mb-4">Corporate Head Office, Gulshan Avenue, Dhaka</p>
+            <ul class="space-y-2 text-sm text-slate-700 list-disc pl-5">
+              <li>Conduct independent Information Systems (IS) audits across branches and corporate divisions covering Cash Management, General Banking, Clearing (BACH/BEFTN/RTGS), Remittance, and Investment operations.</li>
+              <li>Perform vulnerability assessment, bug identification, and ICT risk reviews of IT networking, system communication, and Core Banking Systems (<strong>BankUltimus</strong> &amp; <strong>Flora Bank UBS</strong>).</li>
+              <li>Manage and audit <strong>IT CCTV surveillance systems</strong> and physical/infrastructure security compliance across banking premises.</li>
+              <li>Write complex <strong>Oracle SQL</strong> queries to extract and reconcile customer, group, and loan disbursement/outstanding records for audit verification.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="relative pl-8 sm:pl-10">
+          <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 ring-4 ring-slate-200"></span>
+          <div class="bg-slate-50 rounded-2xl p-6 sm:p-7 border border-slate-200/90">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="font-display text-xl font-bold text-slate-900">Content Developer &amp; Full-Stack Web Developer</h3>
+                <p class="text-slate-700 font-semibold text-sm">Software Firm (Become Expert &amp; Local Software Houses)</p>
+              </div>
+              <span class="px-3.5 py-1 rounded-full bg-slate-800 text-white text-xs font-semibold">5+ Years (2007 &ndash; 2012)</span>
+            </div>
+            <ul class="space-y-2 text-sm text-slate-700 list-disc pl-5">
+              <li>Developed and maintained dynamic web applications and enterprise portals using <strong>HTML, CSS, Bootstrap, JavaScript, PHP, CodeIgniter, and MySQL</strong>.</li>
+              <li>Converted PSD designs into responsive, cross-browser HTML/CSS templates and customized <strong>WordPress CMS</strong> platforms.</li>
+              <li>Managed backend database schemas, SQL queries, content architecture, and digital marketing analytics for client projects.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Training Showcase -->
+  <section id="certifications" class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Credentials &amp; Continuous Learning</span>
+          <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold text-slate-900">Certifications &amp; Specialized Workshops</h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-2 no-print" id="cert-filters">
+          <button data-filter="all" class="filter-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-900 text-white transition-colors">All (10)</button>
+          <button data-filter="audit" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:border-sky-500 transition-colors">IT Audit &amp; Cloud</button>
+          <button data-filter="dev" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:border-sky-500 transition-colors">Programming</button>
+          <button data-filter="banking" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:border-sky-500 transition-colors">Banking &amp; Compliance</button>
+          <button data-filter="other" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:border-sky-500 transition-colors">Language &amp; Business</button>
+        </div>
+      </div>
+
+      <!-- Certifications Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cert-grid">
+        <!-- Cert 1: ITEE IP -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="audit">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 text-[11px] font-bold uppercase">National IT Exam</span>
+              <span class="text-xs text-slate-400 font-medium">19 Nov 2021</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Information Technology Passport Examination (IP) — ITEE</h3>
+            <p class="text-xs text-slate-600 mb-3">Bangladesh Computer Council (BCC) &amp; ICT Division (BD-ITEC / ITPEC)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500">Passer # IP2021NOV00007</span>
+            <i data-lucide="badge-check" class="w-4 h-4 text-emerald-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 2: Microsoft Azure AZ-900 -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="audit">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-sky-50 text-sky-700 text-[11px] font-bold uppercase">Cloud Computing</span>
+              <span class="text-xs text-slate-400 font-medium">Microsoft Official</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Microsoft Azure Fundamentals (AZ-900)</h3>
+            <p class="text-xs text-slate-600 mb-3">Microsoft &amp; ICT Division (Bangladesh Hi-Tech Park Authority)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500">Course Code: AZ-900</span>
+            <i data-lucide="cloud" class="w-4 h-4 text-sky-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 3: Python Ostad -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="dev">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 text-[11px] font-bold uppercase">Programming</span>
+              <span class="text-xs text-slate-400 font-medium">Ostad Ltd.</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Run Your First Python Code</h3>
+            <p class="text-xs text-slate-600 mb-3">Instructors: Rabbil Hasan &amp; Nayeem Hasan (Ostad)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500">Certificate ID: C28925</span>
+            <i data-lucide="terminal" class="w-4 h-4 text-amber-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 4: BIBM IT Risk Management -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="audit">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700 text-[11px] font-bold uppercase">Banking IT Risk</span>
+              <span class="text-xs text-slate-400 font-medium">15–16 Nov 2020</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">IT Risk Management in Banks</h3>
+            <p class="text-xs text-slate-600 mb-3">Bangladesh Institute of Bank Management (BIBM)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500">BIBM/2020/online/TW-2864</span>
+            <i data-lucide="shield" class="w-4 h-4 text-indigo-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 5: Information System Audit in Banks (BIBM) -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="audit">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700 text-[11px] font-bold uppercase">IS Audit</span>
+              <span class="text-xs text-slate-400 font-medium">5 Days Workshop</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Information System Audit in Banks for IT Executives</h3>
+            <p class="text-xs text-slate-600 mb-3">Bangladesh Institute of Bank Management (BIBM)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Executive Audit Certification</span>
+            <i data-lucide="file-check-2" class="w-4 h-4 text-indigo-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 6: CISA & COBIT -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="audit">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-teal-50 text-teal-700 text-[11px] font-bold uppercase">IT Governance</span>
+              <span class="text-xs text-slate-400 font-medium">3 Days Workshop</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">CISA Certification Course Guideline &amp; COBIT Framework</h3>
+            <p class="text-xs text-slate-600 mb-3">TMMS, Dhaka &mdash; IT Audit Framework</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Control Objectives of IT</span>
+            <i data-lucide="lock" class="w-4 h-4 text-teal-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 7: SJIBL Foundation Course -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="banking">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 text-[11px] font-bold uppercase">Core Banking</span>
+              <span class="text-xs text-slate-400 font-medium">18–29 Aug 2013</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Foundation Course on Banking</h3>
+            <p class="text-xs text-slate-600 mb-3">Shahjalal Islami Bank Training Centre (General Banking, Investment &amp; Foreign Trade)</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Issued: 29 August 2013</span>
+            <i data-lucide="landmark" class="w-4 h-4 text-blue-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 8: AML/CFT -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="banking">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 text-[11px] font-bold uppercase">Compliance</span>
+              <span class="text-xs text-slate-400 font-medium">5 Days Training</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">AML/CFT &amp; Prevention of Trade-Based Money Laundering</h3>
+            <p class="text-xs text-slate-600 mb-3">Shahjalal Islami Bank Training Academy</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500">Regulatory Compliance</span>
+            <i data-lucide="scale" class="w-4 h-4 text-blue-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 9: Spanish Level 2 -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="other">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 text-[11px] font-bold uppercase">Foreign Language</span>
+              <span class="text-xs text-slate-400 font-medium">07 Aug 2026</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Spanish for Beginners: The Complete Method (Level 2)</h3>
+            <p class="text-xs text-slate-600 mb-3">Udemy &mdash; Instructor: Peter Hanley</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500 truncate max-w-[190px]">UC-1877c5ba-f268-48d9...</span>
+            <i data-lucide="languages" class="w-4 h-4 text-purple-600"></i>
+          </div>
+        </div>
+
+        <!-- Cert 10: Sales Masterclass -->
+        <div class="cert-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between" data-category="other">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-rose-50 text-rose-700 text-[11px] font-bold uppercase">Business &amp; Strategy</span>
+              <span class="text-xs text-slate-400 font-medium">19 Oct 2026</span>
+            </div>
+            <h3 class="font-display font-bold text-slate-900 text-base mb-1.5">Sales Masterclass</h3>
+            <p class="text-xs text-slate-600 mb-3">Business School by Khalid Farhan</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-slate-500">Cert No: BS-2026-UX36J4</span>
+            <i data-lucide="briefcase" class="w-4 h-4 text-rose-600"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Education -->
+  <section id="education" class="py-16 sm:py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Academic Background</span>
+        <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold text-slate-900">Education Qualifications</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/90">
+          <span class="inline-block px-3 py-1 rounded-md bg-sky-600 text-white text-xs font-semibold mb-3">B.Sc. Engineering</span>
+          <h3 class="font-display text-lg font-bold text-slate-900">Computer Science &amp; Engineering (CSE)</h3>
+          <p class="text-sm font-medium text-sky-700 mt-1">Sylhet International University</p>
+          <p class="text-xs text-slate-500 mt-2">Session: 2003&ndash;2007 &bull; Passing Year: 2007</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/90">
+          <span class="inline-block px-3 py-1 rounded-md bg-slate-800 text-white text-xs font-semibold mb-3">Higher Secondary (HSC)</span>
+          <h3 class="font-display text-lg font-bold text-slate-900">Higher Secondary Certificate</h3>
+          <p class="text-sm font-medium text-slate-700 mt-1">Comilla Victoria Government College</p>
+          <p class="text-xs text-slate-500 mt-2">কুমিল্লা ভিক্টোরিয়া সরকারি কলেজ</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/90">
+          <span class="inline-block px-3 py-1 rounded-md bg-slate-700 text-white text-xs font-semibold mb-3">Secondary (SSC)</span>
+          <h3 class="font-display text-lg font-bold text-slate-900">Secondary School Certificate</h3>
+          <p class="text-sm font-medium text-slate-700 mt-1">Barura Haji Nowab Ali High School</p>
+          <p class="text-xs text-slate-500 mt-2">বরুরা হাজী নোয়াব আলী উচ্চ বিদ্যালয়</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 sm:py-20 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-6 space-y-4">
+          <span class="text-xs font-bold uppercase tracking-wider text-sky-400">Get In Touch</span>
+          <h2 class="font-display text-2xl sm:text-3xl font-bold">Let&rsquo;s Connect for IT Audit, Security &amp; Software Engineering</h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Available for professional networking, IT governance &amp; audit discussions, database/software architecture consultations, and collaborative technology initiatives.
+          </p>
+
+          <div class="space-y-3 pt-2 text-sm">
+            <a href="mailto:shafiul2494@gmail.com" class="flex items-center gap-3 text-slate-200 hover:text-sky-400 transition-colors">
+              <span class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center text-sky-400"><i data-lucide="mail" class="w-4 h-4"></i></span>
+              shafiul2494@gmail.com
+            </a>
+            <a href="tel:+8801621377466" class="flex items-center gap-3 text-slate-200 hover:text-sky-400 transition-colors">
+              <span class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center text-teal-400"><i data-lucide="phone" class="w-4 h-4"></i></span>
+              +880 1621-377466 / +880 1718-284828 (WhatsApp)
+            </a>
+            <a href="https://www.linkedin.com/in/devshafiulazam/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-slate-200 hover:text-sky-400 transition-colors">
+              <span class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center text-sky-400"><i data-lucide="linkedin" class="w-4 h-4"></i></span>
+              linkedin.com/in/devshafiulazam
+            </a>
+            <a href="https://boostingpoint.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-slate-200 hover:text-sky-400 transition-colors">
+              <span class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center text-emerald-400"><i data-lucide="globe" class="w-4 h-4"></i></span>
+              https://boostingpoint.com
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 no-print">
+          <form id="contact-form" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 sm:p-8 space-y-4">
+            <h3 class="font-display text-lg font-bold text-white">Send a Quick Message</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Your Name</label>
+                <input type="text" id="sender-name" required placeholder="Enter your name" class="w-full px-3.5 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-sm text-white focus:outline-none focus:border-sky-500" />
+              </div>
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Your Email</label>
+                <input type="email" id="sender-email" required placeholder="you@example.com" class="w-full px-3.5 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-sm text-white focus:outline-none focus:border-sky-500" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs text-slate-300 mb-1">Subject</label>
+              <input type="text" id="sender-subject" required placeholder="IT Audit / Web & Python Project / Consultation" class="w-full px-3.5 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-sm text-white focus:outline-none focus:border-sky-500" />
+            </div>
+            <div>
+              <label class="block text-xs text-slate-300 mb-1">Message</label>
+              <textarea id="sender-message" rows="3" required placeholder="Write your message here..." class="w-full px-3.5 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-sm text-white focus:outline-none focus:border-sky-500"></textarea>
+            </div>
+            <button type="submit" class="w-full py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-sm transition-colors">
+              Compose Email via Mail Client
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <p>&copy; 2026 Mohammad Shafiul Azam. All rights reserved.</p>
+        <p>Built with Semantic HTML5 &amp; Tailwind CSS</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile Navigation Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Certification Filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const certCards = document.querySelectorAll('.cert-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-slate-900', 'text-white');
+          b.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+        });
+        btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+        btn.classList.add('bg-slate-900', 'text-white');
+
+        const filter = btn.getAttribute('data-filter');
+        certCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Mailto Form Handler
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('sender-name').value);
+      const email = encodeURIComponent(document.getElementById('sender-email').value);
+      const subject = encodeURIComponent(document.getElementById('sender-subject').value);
+      const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}
+Email: ${decodeURIComponent(email)}
+
+${document.getElementById('sender-message').value}`);
+      window.location.href = `mailto:shafiul2494@gmail.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
